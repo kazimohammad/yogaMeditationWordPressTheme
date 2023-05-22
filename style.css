@@ -1,0 +1,62 @@
+/*
+Theme Name: Yoga Maditation
+Theme URI: https://wordpress.org/themes/yogameditation/
+Author: Kazi Mohammad Abdul Quaiyum
+Author URI: https://wordpress.org/
+Description: Yoga Maditation is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 4.0
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: yogameditation
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.navbar-nav a {
+    
+    font-size: 14px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    color: #000;
+    opacity: 1 !important;
+}
+.services .icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+}
+a.img.d-flex.justify-content-center.align-items-center img {
+    width: 600px;
+   
+}
+.package-program:after {
+    width: 400px;
+    height: 400px;
+}
+ #blog_img img{
+            width: 100%;
+            height: 270px;
+     }
+.blog-entry .text{
+    height: 350px;
+}
+
+.form-control {
+                padding-left: 10px;
+                border-radius: 4px;
+ }
+
+ .form-control:focus, .form-control:active {
+    
+    background-color: skyblue !important;
+}
+div#wpcf7-f288-o1 {
+    background: rgba(110, 216, 246, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid;
+}
